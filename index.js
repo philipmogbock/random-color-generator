@@ -44,6 +44,8 @@ function generateColors(){
             const generatedColor =randomColor();        
             //update background color to randomly generated color
             colorContainerEl.style.backgroundColor = "#" + generatedColor;
+            //add text to divs corresponding to color name
+            colorContainerEl.innerHTML+="#"+ generatedColor;
         
     });
 }
